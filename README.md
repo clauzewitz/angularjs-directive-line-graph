@@ -2,6 +2,10 @@
 D3 Line Graph Directive
 
 # How to use
+```npm
+npm install d3
+```
+
 ```javascript
 angular.module('app', [
   'lineChart'
