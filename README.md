@@ -35,10 +35,10 @@ var colors = [
   '#FBE99D'
 ];
 
-![demo.png](/demo.png "demo")
-
 <line-chart data="chartData" width="200" height="300" colors="colors"></line-chart>
 ```
+
+![demo.png](/demo.png "demo")
 
 # License
 MIT License
