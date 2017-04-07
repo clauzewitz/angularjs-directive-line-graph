@@ -13,25 +13,33 @@ angular.module('app', [
 
 var chartData = {
   data1: [
-    {
-      name: "1",
-      data: 200
-    },
-    {
-      name: "2",
-      data: 200
-    }...
-  ],
+          {
+            name: '1',
+            value: 0
+          },
+          {
+            name: '2',
+            value: 0
+          },
+          {
+            name: '3',
+            value: 0
+          },...
+        ],
   data2: [
-    {
-      name: "1",
-      data: 200
-    },
-    {
-      name: "2",
-      data: 200
-    }...
-  ]
+          {
+            name: '1',
+            value: 0
+          },
+          {
+            name: '2',
+            value: 112
+          },
+          {
+            name: '3',
+            value: 50
+          },...
+        ]
 }
 
 var colors = [
