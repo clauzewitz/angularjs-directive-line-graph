@@ -99,8 +99,7 @@ angular.module('lineChart', []).directive('lineChart', function () {
 			});
 
 			function removeChart () {
-				svg.selectAll('g').remove();
-				svg.selectAll('path').remove();
+				svg.selectAll("*").remove();
 			}
 
 			function drawLine (data, color, isShowVertexData) {
