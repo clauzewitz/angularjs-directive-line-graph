@@ -2,13 +2,12 @@ angular.module('lineChart', []).directive('lineChart', function () {
 	try {
 		return {
 			scope: {
-				'width': '=',
-				'height': '=',
+				'width': '=?',
+				'height': '=?',
 				'data': '=',
-				'description': '=',
+				'description': '=?',
 				'onClick': '&',
-				'accessor': '=',
-				'colors': '='
+				'colors': '=?'
 			},
 			restrict: 'E',
 			link: buildLink
